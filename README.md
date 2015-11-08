@@ -1,7 +1,7 @@
 # Cars API
 
 An endpoint to provide the 10 nearest GPS positions ordered by distance given a set of data.
-This example code uses the Kdtree algorithm and stores the tree in a static file in the db directory.
+This example code uses Rails + Kdtree algorithm in static files. In this way is possibile to process million of positions in a very short time.
 
 ## Requirements
 
