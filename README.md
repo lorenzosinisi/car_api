@@ -25,4 +25,4 @@ rails s
 ## How to use the static Kdtree
 
 - make sure to delete the files named kdtree_* in db/ after you have modified the database, this will generate a new static kdtree file
-- Visit localhost:3000/car?location=0,0
+- Visit localhost:3000/cars?location=0,0
