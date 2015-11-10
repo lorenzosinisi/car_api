@@ -17,8 +17,10 @@ run "rspec" in the main directory of the app
 ## Start the Rails app
 
 ````
+bundle install
 rake db:create db:migrate db:seed
 rails s
+visit http://localhost:3000/cars
 
 ````
 
